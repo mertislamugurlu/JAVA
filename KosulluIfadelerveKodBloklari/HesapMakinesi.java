@@ -38,7 +38,7 @@ public class HesapMakinesi {
         }
        //Geçen Süre
         long bitir = System.nanoTime(); // Bitiş zamanı
-        double saniye = (bitir - basla) / 1_000_000_000.0;
+        double saniye = (bitir - basla) / 1000000000.0;
 
         //saniye
         System.out.printf("\nİşlem süresi: %.7f nanosaniye\n", saniye);
