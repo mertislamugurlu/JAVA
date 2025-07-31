@@ -34,7 +34,7 @@ public class SinifGecmeDurumu  {
         if (mat < 0 || mat > 100 || fiz < 0 || fiz > 100 || tur < 0 || tur > 100 || kim < 0 || kim > 100 || muzik < 0 || muzik > 100) {
             System.out.println("Ortalamaya katılamadınız lütfen geçerli not girin : :D ");
         }
-        else { //<< -- *** bu else içerisinde System.out.println(average >= 55 ? "Sınıfı geçtiniz." : "Sınıfta kaldınız."); //<< -- ***
+        else { //<< -- *** bu else içerisinde System.out.println(average >= 55 ? "Sınıfı geçtiniz." : "Sınıfta kaldınız."); VEYA else içerisinde if //<< -- ***
 
             if (average >= 55) { //--< else içerisinde if
                 System.out.println("Sınıfı geçtiniz.");
