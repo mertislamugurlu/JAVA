@@ -1,4 +1,4 @@
-/* Bir sayının basamak sayılarının toplamını hesaplayan program yazınız. */
+/* Armstrong Sayılar */
 
 import java.util.Scanner;
 
@@ -46,5 +46,6 @@ public class ArmstongSayi {
 
     }
 }
+
 
 
