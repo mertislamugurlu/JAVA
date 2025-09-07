@@ -10,9 +10,6 @@ public class YildizlarlaUcgen {
         girilensayi = yildiz;
 
 
-        // İlk öncelikle girilen adım sayısı
-        // değerini bulmak istiyorum buna göre yildiz çizdireceğim.
-
         for (int i = 1; i <= girilensayi; i++) {
             for (int j = 1; j <= (girilensayi - i); j++) { //girilen sayı -1 boşluk
                 System.out.print(" ");
@@ -31,3 +28,4 @@ public class YildizlarlaUcgen {
 
     }
 }
+
